@@ -41,8 +41,6 @@ header {
     height: 60px;
     position: fixed;
     top: 0;
-    right: 0;
-    background-color: #ffffff;
     z-index: 20;
     width: 100%;
    background-color: var(--Blue-Zodiac);
@@ -67,12 +65,11 @@ header {
     font-size: 25px;
     padding: 20px 0px 20px 30px;
   }
-.logo img{
+  .logo img {
     color: #516EFF;
-    padding: 450px 0;
     width: 9%;
-    
-}
+    margin-top: 10px;
+  }
 .menu li{
     margin: 0 15px;
     list-style: none;
@@ -98,18 +95,12 @@ header {
     margin-top: 10px;
     font-size: 14px;
     font-weight: bold;
+    border-radius: 9px;
 }
 #g:hover{
-    color: var(--Blue-Zodiac);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--Blue-Zodiac);
 }
-#f {
-    background-color: var(--white);
-    color: var(--Blue-Zodiac);
-    padding: 9px 30px 9px 30px;
-    border-radius: 10px;
-}
-
 
 .menu li a:hover{
    color: #516EFF;
@@ -171,22 +162,12 @@ width: 100%;
     font-size: 10px;
     font-weight:100;
     text-align: center;
-    border: 1px solid #516EFF;
-   
-
-    
+    border: 1px solid #516EFF;  
  }
- /* .btn{
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    text-align: center;
- } */
+
  .btn  button:hover{
     color: #f8fafc;
     background-color: #516EFF; 
-   
-
 }
 
 #home1 .right {
@@ -203,8 +184,6 @@ width: 100%;
     border-radius: 20px;
   
 }
-
-
 /* menu css */
 .d input button{
     background-color: #516EFF;
@@ -350,7 +329,7 @@ position: relative;
     padding: 10px 0;
 }
 /* section help  */
-.help{
+/* .help{
    
     background-color: #516EFF;
     padding: 40px;
@@ -373,7 +352,7 @@ justify-items: center;
     font-size: 13px;
     text-align: center;
     padding-top: 20px;
-}
+} */
 
 .tn button{
     margin-top: 40px;
@@ -478,7 +457,7 @@ justify-items: center;
     line-height: 2;
 }
 c/*omment section css*/
-.m2{
+/* .m2{
     display: flex;
     justify-content: space-around;
 }
@@ -513,17 +492,7 @@ c/*omment section css*/
     justify-content: flex-end;
     font-size: 35px;
     
-}
-
-/* .w .m1{
-    margin-top: 60px;
-text-align: center;
-}
-.w hr {
-    width: 80%;
 } */
-
-
 
 .contenair {
     display: flex;
@@ -623,7 +592,7 @@ flex-direction: column;
  
  
 
- .r{
+ /* .r{
     display: flex;
     justify-content: space-between;
  }
@@ -642,74 +611,13 @@ flex-direction: column;
     text-align:center ;
 
     
- }
- .btn  button:hover{
+ } */
+ /* .btn  button:hover{
     color: #f8fafc;
     background-color: #516EFF; 
     transition: transform 0.01s;
 
-}
-/* section customer */
-/* .customer{
-display: flex;
-justify-content: center;
-
-width: 100%;
-background-color: #516EFF; 
-position: relative; 
- padding: 40px; 
- 
-}
-.customer .left h1{
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-}
-.customer .left img {
-    display: flex;
-    justify-content: center;
-    font-size: 20px;
-    width: 100%;
-}
-.customer button{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #fff;
-    background-color: transparent;
-    border: none;
-}
-
-.customer .left{
-width: 300px;
-height:300px;
-padding: 20px;
-background-color: #ffffff;
-border-radius: 20px;
-}
-
-.customer .right{
-color: #ffffffff;
-width: 80%;
-display: flex;
-justify-content: center;
-justify-items: center;
-}
-.customer .right button{
-    display: flex;
-    font-size: 60px;
-    width: 100%;
-    justify-content:center;
-    margin-top: 20px;
-}
-.customer .right h2{
-    font-size: 30px;
-}
-.customer .right p{
-    font-size: 15px;
-    padding-top: 20px;
 } */
-
 
 /* section reservation  */
 #reservation{
@@ -733,9 +641,10 @@ padding: 20px;
     width: 50%;
 }
 .contact .left img {
-    width: 80%;
-    height: 50VH;
-}
+    width: 100%;
+    height: 66VH;
+    margin-top: 20px;
+  }
 .contact .right {
     width: 50%;
 }
@@ -748,22 +657,20 @@ padding: 20px;
 
 
 
-.right .f{
+.right .f {
     display: flex;
     font-size: 15px;
     font-size: small;
-    padding-top: 10px;
     color: var(--white);
     flex-direction: column;
     width: 100%;
-
-
-}
+  }
 .g {
     display: flex;
     justify-content: center;
     width: 100%;
     gap: 20px;
+    line-height: 2;
   }
 .right .input{
     padding: 10px;
@@ -803,30 +710,33 @@ padding: 20px;
     background-color: transparent;
     border: 1px solid var(--muted);
   }
-
-#reservation form input[type="submit"]{
-    
-        margin-top: 15px;
-        color: var(--Blue-Zodiac);
-        background-color: var(--white);
-        padding: 15px;
-        width: 100%;
-        border-radius: 10px;
-        font-size: 16px;
-        font-weight: bold;
-    }
- 
-#reservation form input:hover[type="submit"]{
-        margin-top: 15px;
-        color:  var(--white);
-        background-color: var(--Blue-Zodiac);
-        cursor: pointer;
-        padding: 15px;
-        width: 50%;
-        border-radius: 10px;
-        border: 1px solid var(--white);
-    
+#button{
+    display: flex;
+    justify-content: left;
+    width: 100%;
 }
+#reservation form input[type="submit"] {
+    margin-top: 15px;
+    color: var(--Blue-Zodiac);
+    background-color: var(--white);
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  #reservation form input[type="submit"]:hover{
+    margin-top: 15px;
+    color: var(--white);
+    background-color: var(--Blue-Zodiac);
+    padding: 15px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
 .tete{
    display: flex;
    justify-content: space-between;
@@ -888,7 +798,6 @@ padding: 20px;
     text-align: center;
 
   }
-
 /* footer css*/
 footer{
     display: flex;
@@ -919,6 +828,37 @@ footer p{
     
 
 @media only screen and (min-width: 760px) and (max-width:991px){
+    #reservation form input[type="submit"] {
+        margin-top: 15px;
+        color: var(--Blue-Zodiac);
+        background-color: var(--white);
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      #reservation form input[type="submit"]:hover{
+        margin-top: 15px;
+        color: var(--white);
+        background-color: var(--Blue-Zodiac);
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    .social img{
+        width: 20px;
+        height: 20px;
+     }
+    footer p{
+        color:var(--white);
+        margin-top: 20px;
+        font-size: 10px;
+    }
     .comment_section h1{
         margin-top: 138px;
     }
@@ -1153,6 +1093,37 @@ footer p{
 
 
 @media only screen and (min-width:400px) and  (max-width: 760px){
+    #reservation form input[type="submit"] {
+        margin-top: 15px;
+        color: var(--Blue-Zodiac);
+        background-color: var(--white);
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      #reservation form input[type="submit"]:hover{
+        margin-top: 15px;
+        color: var(--white);
+        background-color: var(--Blue-Zodiac);
+        padding: 15px;
+        width: 100%;
+        border-radius: 10px;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    .social img{
+        width: 20px;
+        height: 20px;
+     }
+    footer p{
+        color:var(--white);
+        margin-top: 20px;
+        font-size: 10px;
+    }
     .comment_section h1{
         margin-top: 10px;
     }
@@ -1287,11 +1258,7 @@ footer p{
             flex-direction: column;
             margin-top: 40px;
         }
-    /* .about .right {
-        width: 60%;
-        font-size: 1.5rem;
-        margin: auto;
-    } */
+    
 .about .right {
     width: 80%;
     font-size: 1.5rem;
