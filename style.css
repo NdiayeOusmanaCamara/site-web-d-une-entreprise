@@ -328,31 +328,7 @@ position: relative;
     line-height: 1.2;
     padding: 10px 0;
 }
-/* section help  */
-/* .help{
-   
-    background-color: #516EFF;
-    padding: 40px;
-    width: 100%;
-    color: #ffffff;
-    font-size: 15px;
-    align-items: center;
-    border-radius: 10px;
-    text-align: center;
-    
-    
-}
-.help .h{
-text-align: center;
-display: flex;
-justify-content: space-around;
-justify-items: center;
-}
-.help .n{
-    font-size: 13px;
-    text-align: center;
-    padding-top: 20px;
-} */
+
 
 .tn button{
     margin-top: 40px;
@@ -592,32 +568,7 @@ flex-direction: column;
  
  
 
- /* .r{
-    display: flex;
-    justify-content: space-between;
- }
-.btn  button{
-    margin-top: 10px;
-    color:#516EFF;
-    font-size: 1px;
-    padding: 10px ;
-    border-radius: 5px;
-    outline: none;
-    cursor: pointer;
-    width: 150px;
-    background-color: transparent;
-    font-size: 15px;
-    border: 1px solid #516EFF;
-    text-align:center ;
 
-    
- } */
- /* .btn  button:hover{
-    color: #f8fafc;
-    background-color: #516EFF; 
-    transition: transform 0.01s;
-
-} */
 
 /* section reservation  */
 #reservation{
@@ -1150,7 +1101,7 @@ footer p{
         width: 100%;
         margin-top: 45px;
         flex-direction: column;
-        background-image: url(./assets/images/hero1.png);
+        background-image: url(./assets/images/hero.png);
         height: 60vh;
         background-repeat: no-repeat;
         background-size: cover;
