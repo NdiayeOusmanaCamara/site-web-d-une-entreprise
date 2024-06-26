@@ -22,6 +22,7 @@ body{
     position: relative;
     width: 100%;
     font-family: Arial, sans-serif;
+
 }
 
 .titre p {
@@ -43,28 +44,29 @@ header {
     top: 0;
     z-index: 20;
     width: 100%;
-   background-color: var(--Blue-Zodiac);
-  }  
+    background-color: var(--Blue-Zodiac);
+}
   
-      .men {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        position: absolute;
-        width: 100%;
-      }
+.men {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 80%;
+}
 
 .menu {
     display: flex;
     margin: auto;
     font-size: 12px;
-    width: 500px;
+    width: 400px;
+    justify-content: end;
 }
-  .logo {
+
+.logo {
     font-weight: 650;
     font-size: 25px;
-    padding: 20px 0px 20px 30px;
-  }
+}
   .logo img {
     color: #516EFF;
     width: 9%;
@@ -119,7 +121,7 @@ width: 100%;
     width: 100%;
     margin-top: -45px;
     flex-direction: column;
-    background-image: url(./assets/images/hero.png);
+    background-image: url(./assets/images/hero..png);
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,20 +291,21 @@ position: relative;
 
     position: relative;
 }
-.dishes{
+.dishes {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-around;
+    width: 80%;
+    justify-content: space-between;
     justify-items: center;
-    margin: 20px;
+    margin: auto;
     position: relative;
+    /* gap: 85px; */
+    padding: 40px 0;
 }
 .dishes .dish {
     height: 280px;
     width: 30%;
     background-color: var(--white);
-    padding: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -378,14 +381,15 @@ position: relative;
     color: var(--white);
     margin-top: 30px;
 }
-.about { 
+.about {
     display: flex;
     align-items: center;
-    width: 100%;
-    justify-content: space-around;
+    width: 80%;
+    justify-content: space-between;
     height: 400PX;
     margin: auto;
-  }
+    gap: 100px;
+}
 #about_us h2{
     font-size: 25px;
     margin-left: 800px;
@@ -414,11 +418,11 @@ position: relative;
 }
 
 .about .left img {
-    width: 60%;
+    width: 80%;
 }
 .about .right {
-    padding: 30px;
-    width: 50%;
+    width: 40%;
+    margin-top: -40px;
 }
 .about .right h3 {
     font-size: 20px;
@@ -477,12 +481,13 @@ c/*omment section css*/
     width: 100%;
     gap: 60px;
 }
-.commentse{
+.commentse {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     justify-items: center;
-    margin-top: 40px;
-
+    width: 80%;
+    margin: auto;
+    gap: 20px;
 }
 
 .comment_section h1 {
@@ -516,7 +521,7 @@ c/*omment section css*/
     margin: 20px;
     border-radius: 10px;
     padding: 20px;
-    width: 400px;
+    width: 350px;
     background-color: var(--white);
 }
 .comment_section{
@@ -583,21 +588,21 @@ padding: 20px;
 .contact {
     display: flex;
     width: 80%;
-    justify-content: center;
-    Margin: auto;
-    gap: 50px;
-    padding: 40px;
+    justify-content: space-between;
+    margin: auto;
+    gap: 40px;
+    padding: 40px 0;
 }
 .contact .left {
-    width: 50%;
+    width: 45%;
 }
 .contact .left img {
     width: 100%;
     height: 66VH;
     margin-top: 20px;
   }
-.contact .right {
-    width: 50%;
+  .contact .right {
+    width: 40%;
 }
 .c{
     display: flex;
@@ -688,13 +693,21 @@ padding: 20px;
     font-weight: bold;
     cursor: pointer;
   }
-.tete{
-   display: flex;
-   justify-content: space-between;
-   padding: 20px 40px;
-   background-color: var(--Black);
-   color: var(--white);
-
+  .tete {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: var(--Black);
+    color: var(--white);
+    width: 100%;
+}
+.text-tete {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin: auto;
 }
 .tete a{
     color: var(--white);
@@ -759,6 +772,12 @@ footer{
     width: 100%;
     padding: 10px 30px 10px 30px;
 
+}
+.text-p {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
 }
 footer p{
     color:var(--white);
@@ -1080,11 +1099,13 @@ footer p{
     }
     .tete {
         display: flex;
-        justify-content: space-between;
+        justify-content:center;
         padding: 20px 40px;
         background-color: var(--Black);
         color: var(--white);
-        font-size: 10px;
+        font-size: 9px;
+        width: 100%;
+        gap: 200px;
     }
       .p-bas .h{
         margin: 20px  0;
@@ -1193,14 +1214,15 @@ footer p{
         transform: translateY(0) rotate(-135deg); 
         box-shadow: 0 0 0 #516EFF;
     }
-    .dishes{
+    .dishes {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
     }
      .dishes .dish {
-            width: 60%;
+            width: 80%;
         }
         .about {
             display: flex;
@@ -1211,20 +1233,27 @@ footer p{
         }
     
 .about .right {
-    width: 80%;
-    font-size: 1.5rem;
-    margin: auto;
+        width: 100%;
+        font-size: 1.5rem;
+        margin: auto;
+    margin-top: -60px;
 }
     .about .right P{
         font-size: 11px;
     }
     .about .left img {
-        width: 400px;
+        width: 100%;
+    }
+    .about .left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
     .commentse {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         align-items: center;
       }
     .contact{
@@ -1236,14 +1265,14 @@ footer p{
         width: 100%;
     }
     .comment_section h1{
-    font-size: 25px;
+    font-size: 20px;
     }
     #about_us{
         padding: 40px;
     }
  
     #about_us h1{
-        font-size: 25px;
+        font-size: 20px;
         }
         #reservation h1{
             font-size: 25px;
